@@ -2,7 +2,7 @@
   "name": "food-delivery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{nehalswarup94}.github.io/{food-delivery}",
+  "homepage": "https://nehalswarup94.github.io/food-delivery",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
