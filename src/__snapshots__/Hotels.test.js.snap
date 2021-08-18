@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Main component Mounts App components 1`] = `
+<App>
+  <div
+    className="main-div"
+  >
+    <Search
+      handleSearch={[Function]}
+    >
+      <div
+        className="search"
+      >
+        <input
+          className="searchbox"
+          name="searchText"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <button
+          className="search-btn"
+          name="search"
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+    </Search>
+    <Tags
+      filterTag={[Function]}
+      tags={Array []}
+    >
+      <div
+        className="tags"
+      />
+    </Tags>
+    <div
+      className="sort"
+    >
+      <p>
+        Sort accoring to : 
+      </p>
+      <button
+        className="sort-btn"
+        onClick={[Function]}
+        value="rating"
+      >
+        Rating
+      </button>
+      <button
+        className="sort-btn"
+        onClick={[Function]}
+        value="ETA"
+      >
+        ETA
+      </button>
+      <button
+        className="sort-btn"
+        onClick={[Function]}
+        value="name"
+      >
+        Hotel Name
+      </button>
+    </div>
+    <div
+      className="hotel-list"
+    >
+      <Hotels
+        filtered={Array []}
+        hotels={
+          Object {
+            "hotels": Array [
+              Object {
+                "ETA": 15,
+                "id": 1,
+                "img": "C:/Users/user/Desktop/System Design/food-delivery/public/dominos.png",
+                "location": "panchkula",
+                "name": "Dominos",
+                "rating": 4,
+                "tags": Array [
+                  "italian",
+                  "Cheese",
+                  "Pizza",
+                  "Tacos",
+                ],
+              },
+              Object {
+                "ETA": 35,
+                "id": 2,
+                "location": "Chandigarh",
+                "name": "Pizza Hut",
+                "rating": 3.5,
+                "tags": Array [
+                  "italian",
+                  "Cheese",
+                  "Pizza",
+                  "American",
+                ],
+              },
+            ],
+          }
+        }
+      >
+        <div
+          className="hotel-card-div"
+        />
+      </Hotels>
+    </div>
+  </div>
+</App>
+`;

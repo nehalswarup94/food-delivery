@@ -1,0 +1,95 @@
+.main-div{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  height: 100%;
+  padding: 5rem 5rem;
+}
+.sort{
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.searchbox{
+  padding: 0.5rem;
+  background-color: cornsilk;
+  border: none;
+  font-weight: bolder;
+  color: coral;
+}
+
+.search-btn{
+  width: 10rem;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0 0.5rem;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.sort-btn{
+  width: 10rem;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0 0.5rem;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  
+}
+
+.tags{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.tag-btn{
+  width: 10rem;
+  margin-right: 5px;
+  padding: 0.5rem;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.main-div .hotel-list{
+  display: flex;
+  justify-content: center;
+}
+
+.hotel-card-div{
+  display: flex;
+}
+
+.main-div .hotel-list .hotel-card{
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  width: 10rem;
+  padding: 1rem 1rem;
+  justify-content: space-around;
+  margin-right: 2rem;
+  border: 1px solid darkgray;
+}
+
+.hotel-name{
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: coral;
+}
+
+.hotel-location, .hotel-rating,.hotel-eta{
+  font-weight: bold;
+  text-transform: capitalize;
+  color: chocolate;
+}
